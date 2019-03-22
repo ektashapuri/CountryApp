@@ -1,0 +1,28 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  background-color: #e3e3f5;
+  color: #344955;
+  width: 80%;
+  font-size: 82.5%;
+}
+.header{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper{
+  display: flex;
+}
+.step_one, .step_two{
+  width: 33%;
+  text-align: center;
+}
+.individualContinentWrapper, .individualCountryWrapper{
+  margin-left: 105px;
+}
+.continentName, .countryName{
+  border: 1px solid grey;
+  width: 50%;
+  height: 20px;
+  padding: 5px;
+}
