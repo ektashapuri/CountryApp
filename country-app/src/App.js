@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import SearchInputComponent from './SearchInputComponent';
 
 export default class MainContainer extends Component {
-  
+
   render() {
     const countryList = [
     	{
@@ -135,8 +135,8 @@ export default class MainContainer extends Component {
     return (
       <div>
         <div className="header">
-          <h1 className="">Flag Picker</h1>
-          <div className="">This app will help you learn flags around the world in 3 steps</div>
+          <h1>Flag Picker</h1>
+          <div className="subHeading">This app will help you learn flags around the world in <u>3 steps</u>.</div>
         </div>
         {countryList.length &&
           <SearchInputComponent data={countryList} />

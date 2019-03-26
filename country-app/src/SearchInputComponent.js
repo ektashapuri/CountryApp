@@ -85,8 +85,8 @@ export default class SearchInputComponent extends Component {
         }
         {flagList &&
           <div className="step_three">
-            <div className="steps">Selected Flags</div>
-            <p> {this.showFlag()} </p>
+            <div className="steps">Selected flags</div>
+            <p className="flag"> {this.showFlag()} </p>
             <button onClick={this.removeFlags} className="addBtn">Clear Flags</button>
           </div>
         }
