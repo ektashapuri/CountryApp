@@ -26,3 +26,28 @@ body {
   height: 20px;
   padding: 5px;
 }
+.selContinentName{
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.selectedContinent{
+  margin-top: 30px;
+}
+.steps{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.instruction{
+  margin-bottom: 15px;
+}
+ul{
+  margin-left: 63px;
+  width: 70%;
+  margin-top: 0;
+}
+li{
+  list-style: none;
+}
+li:hover{
+  background-color: #b1b1ce;
+}

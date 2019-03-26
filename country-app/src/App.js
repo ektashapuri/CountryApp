@@ -1,15 +1,8 @@
 import React, {Component} from 'react';
 import SearchInputComponent from './SearchInputComponent';
-import TypeaAheadComp from './TypeaAheadComp';
-import IndividualContinentComp from './IndividualContinentComp';
-import IndividualCountryComp from './IndividualCountryComp';
 
 export default class MainContainer extends Component {
-
-  constructor(props){
-    super(props);
-  }
-
+  
   render() {
     const countryList = [
     	{
